@@ -1,0 +1,12 @@
+.wrapper {
+    width: 35%;
+    margin: 10% auto;
+}
+.wrapper-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.wrapper-img img {
+    margin: 0 auto;
+}

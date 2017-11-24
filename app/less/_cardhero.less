@@ -1,0 +1,95 @@
+.card-hero {
+    width: 100%;
+    background-color: #EBF0F1;
+    .slider{
+        display: none;
+        .card-hero_pers {
+            padding: 30px 0;
+            .card-hero_pers-logo {
+                img {
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+            &-descr {
+                width:100%;
+            }
+        }
+    }
+    &-main{
+        padding: 60px 0;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_footer{
+        background-color: #F0C310;
+        padding: 25px 0;
+        width: 100%;
+        &-main {
+            width: 75%;
+            margin: 0 auto;
+            color: #fff;
+            font-family: LatoLatinWebBlack;
+            font-size: 20px;
+            letter-spacing: 2px;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                margin-left: 2%;
+            }
+        }
+    }
+}
+.card-hero_pers {
+    list-style-type: none;
+    width: 33%;
+    line-height: 28px;
+    font-size: 12px;
+    &-logo {
+        text-align: center;
+    }
+    &-descr{
+        padding: 0 15%;
+        &-name{
+            font-family: LatoLatinWebBlack;
+            font-size: 22px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        &-why{
+            font-size: 18px;
+            margin: 10px 0 50px 0;
+            text-align: center;
+            font-family: LatoLatinWebHairline;
+            font-style: italic;
+            color: #979999;
+        }
+        &-text{
+            font-size: 18px;
+            font-family: LatoLatinWebHairline;
+            color: #808283;           
+            text-align: center; 
+        }
+        &-link{
+            font-size: 18px;
+            font-family: LatoLatinWebHairline;
+            text-decoration: none;
+            color: #01A3E4;
+            display: block;
+            text-align: center;
+            margin: 18px 0;
+            &::before {
+                content: '\271A';
+                margin: 5px;
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+}
+.bx-wrapper {
+    display: none;
+}
